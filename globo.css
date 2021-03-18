@@ -267,10 +267,21 @@ a:link {
     width: 170px;
 }
 
-.texto-format {
-    margin-top: 13.5px;
+.texto-format-esquerda {
     text-align: left;
     width: 170px;
+}
+
+.texto-format-meio {
+    margin-top: 30px;
+    text-align: left;
+    width: 220px;
+}
+
+.texto-format-direita {
+    margin-top: 20px;
+    text-align: left;
+    width: 220px;
 }
 
 .noticia-format {
@@ -279,6 +290,7 @@ a:link {
 
 .meio {
     width: 250px;
+    padding-right: 30px;
     margin-right: 40px;
     margin-top: 40px;
     justify-content: left;
@@ -320,7 +332,9 @@ a:link {
 #direita {
     float: left;
     width: 290px;
-    margin: 40px auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
     text-align: center;
 }
 
