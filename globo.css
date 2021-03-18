@@ -268,18 +268,19 @@ a:link {
 }
 
 .texto-format-esquerda {
+    margin-top: 13.5px;
     text-align: left;
     width: 170px;
 }
 
 .texto-format-meio {
-    margin-top: 30px;
+    margin-top: 13.5px;
     text-align: left;
     width: 220px;
 }
 
 .texto-format-direita {
-    margin-top: 20px;
+    margin-top: 13.5px;
     text-align: left;
     width: 220px;
 }
@@ -292,7 +293,6 @@ a:link {
     width: 250px;
     padding-right: 30px;
     margin-right: 40px;
-    margin-top: 40px;
     justify-content: left;
     height: 109%;
     border-right: 1px solid #E6E6E6;
@@ -317,15 +317,10 @@ a:link {
 }
 
 .noticia-meio {
-    margin: 27px auto;
-    text-align: left;
-    width: 170px;
-}
-
-.noticia-meio-cima {
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
+    margin-bottom: 27px;
+    text-align: left;
     width: 170px;
 }
 
@@ -357,5 +352,6 @@ a:link {
 
 .corpo {
     display: flex;
-    align-items: center;
+    justify-content: flex-start;
+    margin-top: 40px;
 }
