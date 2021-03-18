@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@media (max-width: 1000px) {
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: unset;
+    }
+    .logomobile {
+        margin-right: auto;
+        border-bottom: 1px solid #E6E6E6;
+    }
+    .pos-logo {
+        margin-left: 120px;
+    }
+    .pos-links {
+        margin-left: 60px;
+    }
+    .links {
+        margin-left: auto;
+        margin-right: auto;
+        border-bottom: 1px solid #E6E6E6;
+    }
+    .link {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 19px;
+        line-height: 26px;
+        letter-spacing: -0.8px;
+        margin-left: 13.5px;
+    }
+    .dred {
+        color: #A80001;
+    }
+    .cgreen {
+        color: #06AA48;
+    }
+    .corange {
+        color: #FF7F00;
+    }
+    .cgray {
+        color: #666666;
+    }
+    .cblue {
+        color: #0769DE;
+    }
+    a:hover {
+        filter: brightness(130%);
+        -webkit-filter: brightness(130%);
+        -moz-filter: brightness(130%);
+        -o-filter: brightness(130%);
+        -ms-filter: brightness(130%);
+    }
+    a:link {
+        text-decoration: none;
+    }
+    .corpo {
+        display: inline;
+        margin: 20px auto;
+    }
+    .esquerda {
+        margin-left: auto;
+        margin-right: auto;
+        border-right: none;
+    }
+    .cima-esquerda {
+        margin-left: auto;
+        margin-right: auto;
+        width: 375px;
+    }
+    .principal {
+        font-size: 32px;
+    }
+    .secundaria {
+        padding-top: 13.5px;
+        font-size: 16px;
+    }
+    .baixo-esquerda {
+        font-family: 'Open Sans', sans-serif;
+        text-align: left;
+        width: 95%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-top: none;
+    }
+    .sub-esquerda {
+        margin-left: 13.5px;
+        padding-top: 13.5px;
+    }
+    .noticia-esquerda {
+        margin-left: auto;
+        margin-right: auto;
+        width: 350px;
+        border-top: 1px solid #E6E6E6;
+    }
+    .texto-format-esquerda-destaque {
+        padding-left: 13.5px;
+        width: 300px;
+    }
+    .texto-format-esquerda-sub {
+        padding-top: 13.5px;
+        width: 350px;
+        border-top: 1px solid #E6E6E6;
+    }
+    .texto-format-meio-destaque {
+        padding-left: 13.5px;
+        width: 300px;
+    }
+    .texto-format-meio-sub {
+        padding-top: 13.5px;
+        width: 350px;
+        border-top: 1px solid #E6E6E6;
+    }
+    .texto-format-direita-destaque {
+        padding-left: 13.5px;
+        width: 300px;
+    }
+    .texto-format-direita-sub {
+        padding-top: 13.5px;
+        width: 350px;
+        border-top: 1px solid #E6E6E6;
+    }
+    .meio {
+        display: inline;
+        float: left;
+        padding-right: 13px;
+        width: 50%;
+        height: 670px;
+        margin-left: auto;
+        margin-right: auto;
+        border-right: none;
+        margin-top: 870px;
+    }
+    .direita {
+        display: inline;
+        float: left;
+        padding-right: 13px;
+        width: 50%;
+        height: 670px;
+        margin-left: auto;
+        margin-right: auto;
+        border-right: none;
+        margin-top: 80px;
+    }
+    .sub-meio,
+    .sub-direita {
+        margin-left: 13.5px;
+        padding-top: 13.5px;
+    }
+    .noticia-meio {
+        margin-top: 27px;
+        margin-bottom: 27px;
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+        width: 350px;
+        border-top: 1px solid #E6E6E6;
+    }
+    .com-foto {
+        display: flex;
+        margin: 40px 13.5px;
+    }
+    .sem-foto {
+        margin: 40px auto;
+    }
+    .meio-format {
+        font-family: 'Open Sans', sans-serif;
+        text-align: left;
+        width: 95%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-top: none;
+    }
+}

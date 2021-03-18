@@ -1,147 +1,12 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+.desktop {
+    display: flex;
+    align-items: center;
 }
 
-
-/* HTML5 display-role reset for older browsers */
-
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-    display: block;
-}
-
-body {
-    line-height: 1;
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-}
-
-ol,
-ul {
-    list-style: none;
-}
-
-blockquote,
-q {
-    quotes: none;
-}
-
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-    content: '';
-    content: none;
-}
-
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-
-img {
-    border-radius: 4px;
+.mobile {
+    display: none;
 }
 
 .top {
@@ -155,15 +20,20 @@ img {
 }
 
 .links {
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+}
+
+.link {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 19px;
     line-height: 26px;
     letter-spacing: -0.8px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 25px;
+    margin-left: 13.5px;
 }
 
 .dred {
@@ -271,19 +141,22 @@ a:link {
     width: 174px;
 }
 
-.texto-format-esquerda {
+.texto-format-esquerda-destaque,
+.texto-format-esquerda-sub {
     margin-top: 13.5px;
     text-align: left;
     width: 174px;
 }
 
-.texto-format-meio {
+.texto-format-meio-destaque,
+.texto-format-meio-sub {
     margin-top: 13.5px;
     text-align: left;
     width: 210px;
 }
 
-.texto-format-direita {
+.texto-format-direita-destaque,
+.texto-format-direita-sub {
     margin-top: 13.5px;
     text-align: left;
     width: 217px;
@@ -298,7 +171,6 @@ a:link {
     align-items: center;
     width: 291px;
     padding-right: 10px;
-    margin-right: 42px;
     height: 109%;
     border-right: 1px solid #E6E6E6;
 }
@@ -329,8 +201,8 @@ a:link {
     width: 207px;
 }
 
-#direita {
-    width: 290px;
+.direita {
+    width: 291px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 40px;
@@ -352,4 +224,17 @@ a:link {
     letter-spacing: -4.8%;
     text-align: center;
     color: #FF8203;
+}
+
+.com-foto {
+    display: block;
+}
+
+.sem-foto {
+    display: block;
+}
+
+.meio-format {
+    margin-right: auto;
+    margin-left: auto;
 }
