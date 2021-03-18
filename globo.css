@@ -1,0 +1,347 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    width: 1145px;
+    margin: 0px auto;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+img {
+    border-radius: 4px;
+}
+
+.top {
+    width: 100%;
+    height: 103px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.links {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 26px;
+    letter-spacing: -0.8px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+}
+
+.dred {
+    color: #A80001;
+}
+
+.cgreen {
+    color: #06AA48;
+}
+
+.corange {
+    color: #FF7F00;
+}
+
+.cgray {
+    color: #666666;
+}
+
+.cblue {
+    color: #0769DE;
+}
+
+a:hover {
+    filter: brightness(130%);
+    -webkit-filter: brightness(130%);
+    -moz-filter: brightness(130%);
+    -o-filter: brightness(130%);
+    -ms-filter: brightness(130%);
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.esquerda {
+    float: left;
+    border-right: 1px solid #E6E6E6;
+    width: 50%;
+    height: 109%;
+}
+
+.cima-esquerda {
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    font-size: 52px;
+    font-weight: bold;
+    letter-spacing: -0.5px;
+    margin-bottom: 13.5px;
+}
+
+.principal {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 52px;
+    font-weight: bold;
+    letter-spacing: -0.5px;
+    text-align: left;
+    color: #A80001;
+}
+
+.secundaria {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: -0.6px;
+    color: #A80001;
+    padding-bottom: 13.5px;
+    padding-top: 13.5px;
+}
+
+.baixo-esquerda {
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    width: 95%;
+    border-top: 1px solid #E6E6E6;
+}
+
+.destaque-esquerda {
+    padding-top: 13.5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20.5px;
+    font-weight: bold;
+    letter-spacing: -4.5%;
+    text-align: left;
+    color: #A80001;
+}
+
+.sub-esquerda {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13.5px;
+    letter-spacing: -4.8%;
+    text-align: left;
+    color: #A80001;
+}
+
+.noticia-esquerda {
+    margin-top: 27px;
+    margin-bottom: 27px;
+    text-align: left;
+    width: 170px;
+}
+
+.texto-format {
+    margin-top: 13.5px;
+    text-align: left;
+    width: 170px;
+}
+
+.noticia-format {
+    margin-left: 14.5px;
+}
+
+.meio {
+    width: 250px;
+    margin-right: 40px;
+    margin-top: 40px;
+    justify-content: left;
+    height: 109%;
+    border-right: 1px solid #E6E6E6;
+}
+
+.destaque-meio {
+    padding-top: 13.5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20.5px;
+    font-weight: bold;
+    letter-spacing: -4.5%;
+    text-align: center;
+    color: #06AA48;
+}
+
+.sub-meio {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13.5px;
+    letter-spacing: -4.8%;
+    text-align: center;
+    color: #06AA48;
+}
+
+.noticia-meio {
+    margin: 27px auto;
+    text-align: left;
+    width: 170px;
+}
+
+.noticia-meio-cima {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 170px;
+}
+
+#direita {
+    float: left;
+    width: 290px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.destaque-direita {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20.5px;
+    font-weight: bold;
+    letter-spacing: -4.5%;
+    text-align: center;
+    color: #FF8203;
+}
+
+.sub-direita {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13.5px;
+    letter-spacing: -4.8%;
+    text-align: center;
+    color: #FF8203;
+}
+
+.corpo {
+    display: flex;
+    align-items: center;
+}
