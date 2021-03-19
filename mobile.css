@@ -15,16 +15,12 @@
         border-bottom: 1px solid #E6E6E6;
     }
     .links {
-        display: flex;
         align-items: center;
         justify-content: center;
         margin-left: -100px;
         border-bottom: 1px solid #E6E6E6;
     }
     .link {
-        font-family: 'Open Sans', sans-serif;
-        font-style: normal;
-        font-weight: bold;
         font-size: 48px;
         line-height: 26px;
         letter-spacing: -0.8px;
@@ -57,8 +53,6 @@
         font-size: 31px;
     }
     .baixo-esquerda {
-        font-family: 'Open Sans', sans-serif;
-        text-align: left;
         width: 95%;
         display: block;
         margin-left: auto;
@@ -73,7 +67,6 @@
     .sub-esquerda,
     .sub-meio,
     .sub-direita {
-        margin-left: 13.5px;
         padding-top: 13.5px;
         font-size: 28px;
     }
@@ -86,7 +79,6 @@
     .texto-format-esquerda-destaque,
     .texto-format-meio-destaque,
     .texto-format-direita-destaque {
-        padding-left: 13.5px;
         width: 700px;
     }
     .texto-format-esquerda-sub,
@@ -145,5 +137,8 @@
     .pequena,
     .grande {
         width: 300px;
+    }
+    .margin-right {
+        margin-right: 13.5px;
     }
 }
