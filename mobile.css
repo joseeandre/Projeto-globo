@@ -8,59 +8,38 @@
         display: unset;
     }
     .logomobile {
-        margin-right: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
         border-bottom: 1px solid #E6E6E6;
     }
-    .pos-logo {
-        margin-left: 120px;
-    }
-    .pos-links {
-        margin-left: 60px;
-    }
     .links {
-        margin-left: auto;
-        margin-right: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: -100px;
         border-bottom: 1px solid #E6E6E6;
     }
     .link {
         font-family: 'Open Sans', sans-serif;
         font-style: normal;
         font-weight: bold;
-        font-size: 19px;
+        font-size: 48px;
         line-height: 26px;
         letter-spacing: -0.8px;
-        margin-left: 13.5px;
-    }
-    .dred {
-        color: #A80001;
-    }
-    .cgreen {
-        color: #06AA48;
-    }
-    .corange {
-        color: #FF7F00;
-    }
-    .cgray {
-        color: #666666;
-    }
-    .cblue {
-        color: #0769DE;
-    }
-    a:hover {
-        filter: brightness(130%);
-        -webkit-filter: brightness(130%);
-        -moz-filter: brightness(130%);
-        -o-filter: brightness(130%);
-        -ms-filter: brightness(130%);
-    }
-    a:link {
-        text-decoration: none;
+        margin-left: 25.5px;
     }
     .corpo {
-        display: inline;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
         margin: 20px auto;
     }
     .esquerda {
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
         border-right: none;
@@ -68,14 +47,14 @@
     .cima-esquerda {
         margin-left: auto;
         margin-right: auto;
-        width: 375px;
+        width: 800px;
     }
     .principal {
-        font-size: 32px;
+        font-size: 70px;
     }
     .secundaria {
         padding-top: 13.5px;
-        font-size: 16px;
+        font-size: 31px;
     }
     .baixo-esquerda {
         font-family: 'Open Sans', sans-serif;
@@ -86,69 +65,58 @@
         margin-right: auto;
         border-top: none;
     }
-    .sub-esquerda {
+    .destaque-esquerda,
+    .destaque-meio,
+    .destaque-direita {
+        font-size: 40px;
+    }
+    .sub-esquerda,
+    .sub-meio,
+    .sub-direita {
         margin-left: 13.5px;
         padding-top: 13.5px;
+        font-size: 28px;
     }
     .noticia-esquerda {
         margin-left: auto;
         margin-right: auto;
-        width: 350px;
+        width: 800px;
         border-top: 1px solid #E6E6E6;
     }
-    .texto-format-esquerda-destaque {
-        padding-left: 13.5px;
-        width: 300px;
-    }
-    .texto-format-esquerda-sub {
-        padding-top: 13.5px;
-        width: 350px;
-        border-top: 1px solid #E6E6E6;
-    }
-    .texto-format-meio-destaque {
-        padding-left: 13.5px;
-        width: 300px;
-    }
-    .texto-format-meio-sub {
-        padding-top: 13.5px;
-        width: 350px;
-        border-top: 1px solid #E6E6E6;
-    }
+    .texto-format-esquerda-destaque,
+    .texto-format-meio-destaque,
     .texto-format-direita-destaque {
         padding-left: 13.5px;
-        width: 300px;
+        width: 700px;
     }
+    .texto-format-esquerda-sub,
+    .texto-format-meio-sub,
     .texto-format-direita-sub {
         padding-top: 13.5px;
-        width: 350px;
+        width: 800px;
         border-top: 1px solid #E6E6E6;
     }
     .meio {
         display: inline;
         float: left;
         padding-right: 13px;
-        width: 50%;
+        width: 100%;
         height: 670px;
         margin-left: auto;
         margin-right: auto;
         border-right: none;
-        margin-top: 870px;
+        margin-top: 1180px;
     }
     .direita {
         display: inline;
         float: left;
         padding-right: 13px;
-        width: 50%;
+        width: 100%;
         height: 670px;
         margin-left: auto;
         margin-right: auto;
         border-right: none;
-        margin-top: 80px;
-    }
-    .sub-meio,
-    .sub-direita {
-        margin-left: 13.5px;
-        padding-top: 13.5px;
+        margin-top: 140px;
     }
     .noticia-meio {
         margin-top: 27px;
@@ -156,15 +124,15 @@
         text-align: left;
         margin-left: auto;
         margin-right: auto;
-        width: 350px;
+        width: 800px;
         border-top: 1px solid #E6E6E6;
     }
     .com-foto {
         display: flex;
-        margin: 40px 13.5px;
+        margin: 40px 0px;
     }
     .sem-foto {
-        margin: 40px auto;
+        margin: 20px auto;
     }
     .meio-format {
         font-family: 'Open Sans', sans-serif;
@@ -174,5 +142,9 @@
         margin-left: auto;
         margin-right: auto;
         border-top: none;
+    }
+    .pequena,
+    .grande {
+        width: 300px;
     }
 }

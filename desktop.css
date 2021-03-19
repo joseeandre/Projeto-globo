@@ -238,3 +238,11 @@ a:link {
     margin-right: auto;
     margin-left: auto;
 }
+
+.pequena {
+    width: 171px;
+}
+
+.grande {
+    width: 219px;
+}
