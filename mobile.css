@@ -26,7 +26,7 @@
         letter-spacing: -0.8px;
         margin-left: 25.5px;
     }
-    .corpo {
+    .body-content {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -34,60 +34,60 @@
         align-items: center;
         margin: 20px auto;
     }
-    .esquerda {
+    .left {
         width: 100%;
         margin-left: auto;
         margin-right: auto;
         border-right: none;
     }
-    .cima-esquerda {
+    .left-top {
         margin-left: auto;
         margin-right: auto;
         width: 800px;
     }
-    .principal {
+    .main-news {
         font-size: 70px;
     }
-    .secundaria {
+    .second-news {
         padding-top: 13.5px;
         font-size: 31px;
     }
-    .baixo-esquerda {
+    .left-bottom {
         width: 95%;
         display: block;
         margin-left: auto;
         margin-right: auto;
         border-top: none;
     }
-    .destaque-esquerda,
-    .destaque-meio,
-    .destaque-direita {
+    .principal-left,
+    .principal-center,
+    .principal-right {
         font-size: 40px;
     }
-    .sub-esquerda,
-    .sub-meio,
-    .sub-direita {
+    .sub-left,
+    .sub-center,
+    .sub-right {
         padding-top: 13.5px;
         font-size: 28px;
     }
-    .noticia-esquerda {
+    .news-left {
         margin-left: auto;
         margin-right: auto;
         width: 800px;
         border-top: 1px solid #E6E6E6;
     }
-    .texto-format-esquerda-destaque,
-    .texto-format-meio-destaque,
-    .texto-format-direita-destaque {
+    .texto-format-left-principal,
+    .texto-format-center-principal,
+    .texto-format-right-principal {
         width: 700px;
     }
-    .texto-format-esquerda-sub,
-    .texto-format-meio-sub,
-    .texto-format-direita-sub {
+    .texto-format-left-sub,
+    .texto-format-center-sub,
+    .texto-format-right-sub {
         padding-top: 13.5px;
         width: 800px;
     }
-    .meio {
+    .center {
         display: inline;
         float: left;
         padding-right: 13px;
@@ -98,7 +98,7 @@
         border-right: none;
         margin-top: 1180px;
     }
-    .direita {
+    .right {
         display: inline;
         float: left;
         padding-right: 13px;
@@ -109,7 +109,7 @@
         border-right: none;
         margin-top: 140px;
     }
-    .noticia-meio {
+    .news-center {
         margin-top: 27px;
         margin-bottom: 27px;
         text-align: left;
@@ -118,14 +118,14 @@
         width: 800px;
         border-top: 1px solid #E6E6E6;
     }
-    .com-foto {
+    .with-pic {
         display: flex;
         margin: 40px 0px;
     }
-    .sem-foto {
+    .no-pic {
         margin: 20px auto;
     }
-    .meio-format {
+    .center-format {
         font-family: 'Open Sans', sans-serif;
         text-align: left;
         width: 95%;
@@ -134,8 +134,8 @@
         margin-right: auto;
         border-top: none;
     }
-    .pequena,
-    .grande {
+    .short,
+    .big {
         width: 300px;
     }
     .margin-right {
