@@ -13,10 +13,13 @@
 .top {
     margin: 0px auto;
     height: 103px;
-    width: 1145px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
+}
+
+.margin-top {
+    margin-left: 180px;
 }
 
 .links {
