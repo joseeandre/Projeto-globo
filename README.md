@@ -6,4 +6,4 @@ Primeiro projeto do Bootcamp Responde Aí. Página inical do site [globo.com](ht
 
 Versão desktop:
 
-![aux_table](https://i.imgur.com/1z9No0F.png)
+![desktop](https://i.imgur.com/yvd5bO0.png)
