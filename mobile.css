@@ -21,10 +21,10 @@
         border-bottom: 1px solid #E6E6E6;
     }
     .link {
-        font-size: 48px;
+        font-size: 36px;
         line-height: 26px;
         letter-spacing: -0.8px;
-        margin-left: 25.5px;
+        margin-left: 40px;
     }
     .body-content {
         display: flex;
